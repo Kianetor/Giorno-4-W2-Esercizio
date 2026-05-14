@@ -131,6 +131,10 @@ console.log(inizialiMaiuscole("ciao mondo"));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function togliPrimoEUltimo(testo) {
+  return testo.slice(1, -1);
+}
+console.log(togliPrimoEUltimo("EPICODE"));
 
 
 /* ESERCIZIO 10 — dammiCasuali
