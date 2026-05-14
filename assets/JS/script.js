@@ -59,7 +59,10 @@ console.log(distanzaDa19(25));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 function dentroIntervallo(n) {
-   return (n >= 20 && n <= 100) || n === 400;
+   if (n >= 20 && n <= 100 || n === 400) {
+      return true;
+   }
+   return false;
 }
 console.log(dentroIntervallo(50));
 console.log(dentroIntervallo(400));
